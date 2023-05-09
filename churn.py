@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import pickle
 import numpy as np
+import sklearn
 model4 = pickle.load(open('LR_model.pkl', 'rb'))
 scaler = pickle.load(open('scal_class.pkl', 'rb'))
 encoder = pickle.load(open('enc_class.pkl', 'rb'))
